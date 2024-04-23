@@ -1,0 +1,81 @@
+@font-face {
+    font-family: Epilogue;
+    src: url(https://fonts.google.com/specimen/Epilogue);
+}
+
+* {
+    font-size: 18px;
+    font-family: Epilogue;
+    font-weight: 500;
+    margin: 5px;
+    color: hsl(0, 0%, 41%);
+}
+.main_class {
+    display: flex;
+    justify-content: space-between;
+}
+.main_class1 {
+    display: flex;
+}
+.main_class2 {
+    display: flex;
+}
+.ul_class {
+    display: flex;
+    gap: 10px;
+}
+li {
+    list-style-type: none;
+}
+h1 {
+    font-family: Epilogue;
+    font-weight: 800;
+    color: hsl(0, 0%, 8%);
+    font-size: 90px;
+    padding: 20px;
+}
+p {
+    font-family: Epilogue;
+    color: hsl(0, 0%, 8%);
+    font-size: 20px;
+    padding: 30px;
+    margin: 0;
+}
+.div_class{
+    display: flex;
+    margin: 20px;
+    padding: 30px 50px;
+}
+.img_class {
+    display: flex;
+    gap: 30px;
+}
+.div_class1{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    padding: 10px;
+}
+#btn1 {
+    background-color: hsl(0, 0%, 8%);
+    color: hsl(0, 0%, 98%);
+    padding: 10px 30px;
+    margin-left: 20px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+#btn2 {
+    background-color: hsl(0, 0%, 98%);
+    margin: 0;
+    border-radius: 15px;
+    padding: 10px 30px;
+    border-color: hsl(0, 0%, 8%);
+    color: hsl(0, 0%, 8%);
+    cursor: pointer;
+}
+#btn3 {
+    background-color: white;
+    border: none;
+    color: hsl(0, 0%, 41%);
+    cursor: pointer;
+}
